@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF29B829-F944-74C6-0060-AF54E5B2019D" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="RECEIVE_DTL">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RECEIVE_DTL</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:18 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RD_ID" id="02963D79-5005-B677-B391-860A89B93CB8">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_RM_ID" id="1435FCB7-A8A6-B092-F90E-3D338FDB270C">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_RM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9702FCB-C440-869A-BE57-334C96F2FDBF" referredColumn="0120E196-EE65-92A5-23A5-511DEB5D17DE"/>
+</associations>
+</Column>
+<Column name="RD_IIM_ID" id="4B0A05C2-A5D9-B4DE-E21A-9C53B8B5B64A">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_IIM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3D14A16-813D-AC7D-7F35-685FDC9369A2" referredColumn="EA3F00CB-7E95-3214-3AD2-ED6C2E162C23"/>
+</associations>
+</Column>
+<Column name="RD_PUR_AMT" id="03659C54-22CE-BE40-D123-3F3AC9A0C554">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_PUR_AMT</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,20,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_VAT_PCT" id="CAB8B1E7-45AA-D30E-FB47-2E68A6F0B395">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_VAT_PCT</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_VAT_AMT" id="1AD55E94-750A-68EF-1101-950A66F960D4">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_VAT_AMT</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,20,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_QTY" id="B5F829CC-A41C-C638-7989-AB96646329E1">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_QTY</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,20,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RD_RATE" id="D494A321-43F8-725D-3C74-272E16E3EF1B">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_DTL</sourceObjSchema>
+<sourceObjName>RD_RATE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,20,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05A6E83F-E003-B3A1-DE9A-E70419672830" name="RD_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RD_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02963D79-5005-B677-B391-860A89B93CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="311DDD34-294F-078B-D514-4CF7892A226A" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="RD_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RD_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02963D79-5005-B677-B391-860A89B93CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4727021-E711-DDA2-BC11-D13BD5E10E8D" name="FK_RD">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1435FCB7-A8A6-B092-F90E-3D338FDB270C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B46648B-E473-AEB7-3EC5-145D496345D7" name="FK_RD1">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B0A05C2-A5D9-B4DE-E21A-9C53B8B5B64A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

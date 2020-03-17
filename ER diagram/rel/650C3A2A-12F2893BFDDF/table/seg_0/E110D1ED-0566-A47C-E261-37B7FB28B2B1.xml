@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E110D1ED-0566-A47C-E261-37B7FB28B2B1" schemaObject="B961F939-55C1-6FF9-13AB-0CA121FFEC14" name="RECEIVE_MST">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RECEIVE_MST</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RM_ID" id="BCD94329-594A-693B-81B0-FA8E2B71496F">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_DATE" id="16CDBF14-52BF-4FF8-A078-A99375A30F01">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_DATE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_SIM_ID" id="72DB59D0-7AD1-FE82-4EEC-6494137DB9E2">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_SIM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD26B5B-5F19-447B-D1E0-52C8CC34DCFE" referredColumn="815E1D30-6EF2-8607-B648-6BECC3AF1B32"/>
+</associations>
+</Column>
+<Column name="RM_CHALLANN0" id="E90058BB-0A99-8C4F-17BB-7DFE2DE5919D">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_CHALLANN0</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_CHALLAN_DATE" id="C910E42D-F5F6-08CC-D180-A7BA92273FFF">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_CHALLAN_DATE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_UI_ID" id="5702A888-D75A-E1BA-A753-E080483BAE58">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_UI_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F3EE6B4-D1DC-2C3B-F7BC-0B3C6C0AF6CB" referredColumn="4EF5356E-FB3F-BCD4-B624-65CCF0FC6E7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DF8D007-0027-6135-12EF-FD24E94BB298" name="RM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCD94329-594A-693B-81B0-FA8E2B71496F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52CAEB04-8F8B-1354-6454-A443A778E4DD" schemaObject="B961F939-55C1-6FF9-13AB-0CA121FFEC14" name="RM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCD94329-594A-693B-81B0-FA8E2B71496F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2AFA3F01-5506-E0FB-B0B3-2E30256871AE" name="FK_RM">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72DB59D0-7AD1-FE82-4EEC-6494137DB9E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D3B3C22-3BBB-8CF6-5010-6C64340C537C" name="FK_RM2">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:53:40 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5702A888-D75A-E1BA-A753-E080483BAE58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

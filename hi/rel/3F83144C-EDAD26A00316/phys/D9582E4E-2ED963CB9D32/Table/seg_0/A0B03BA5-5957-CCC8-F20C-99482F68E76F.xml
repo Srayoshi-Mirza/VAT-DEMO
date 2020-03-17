@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="ITEM_INFO_MST" directorySegmentName="seg_0" id="A0B03BA5-5957-CCC8-F20C-99482F68E76F">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:18 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F766ECAD-BFC7-4CD4-645D-01484E7761DD</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IIM_NAME" id="363D8FB6-4BF1-8D64-9C75-07B98BCFE188">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIM_CODE" id="62AE453D-575D-29C7-1274-AA75700D887A">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIM_ID" id="EA3F00CB-7E95-3214-3AD2-ED6C2E162C23">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IIM_VAT_PCT" id="ECCE4C76-E6B8-357A-B735-5D804A89C509">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IIM_UK" id="3E66CB8F-C910-95D6-D7C1-012FB756A92B">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IIM_PK" id="A81A6C99-0F33-6647-DA0A-CA3654F97D4E">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IIM_PK" id="A71DC6ED-452D-F49C-999E-D24852DE9A00">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>A81A6C99-0F33-6647-DA0A-CA3654F97D4E</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="IIM_UK" id="9A743C98-8CB0-E76F-D155-1BD643EF563E">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>3E66CB8F-C910-95D6-D7C1-012FB756A92B</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev10g>

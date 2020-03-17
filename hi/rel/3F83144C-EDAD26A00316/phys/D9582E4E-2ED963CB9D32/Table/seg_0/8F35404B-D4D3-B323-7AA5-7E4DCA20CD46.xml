@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="USER_INFO" directorySegmentName="seg_0" id="8F35404B-D4D3-B323-7AA5-7E4DCA20CD46">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F766ECAD-BFC7-4CD4-645D-01484E7761DD</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UI_ACTIVE_FLAGE" id="05391188-F6B6-0DD5-F74D-9D42410163DC">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_PASSWORD" id="1B1D6D53-6D22-CFE9-45A6-BEB7FDE41547">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_USER_NAME" id="3D7A0859-BF4B-3A5F-25C6-75C1F1B01AED">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_FULLNAME" id="A1939D15-0976-CB2C-A39A-3E10CE4CA18D">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_ID" id="B9D81447-CA07-0D30-6906-E97D6F45B3B5">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UI_UK" id="A621579A-F3CF-E492-B52F-540CA598C939">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="USER_PK" id="EED2F415-7D9B-ECBD-2719-E32FEE294421">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USER_PK" id="F14E90D2-2BE9-0CE8-8E1F-7DFBB4402FA8">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>EED2F415-7D9B-ECBD-2719-E32FEE294421</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UI_UK" id="11A0CBCA-E495-C3C7-1FB6-4CFE5E81DB47">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>A621579A-F3CF-E492-B52F-540CA598C939</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev10g>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F35404B-D4D3-B323-7AA5-7E4DCA20CD46" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="USER_INFO">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_INFO</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UI_ID" id="B9D81447-CA07-0D30-6906-E97D6F45B3B5">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_USER_NAME" id="3D7A0859-BF4B-3A5F-25C6-75C1F1B01AED">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_USER_NAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_PASSWORD" id="1B1D6D53-6D22-CFE9-45A6-BEB7FDE41547">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_PASSWORD</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_FULLNAME" id="A1939D15-0976-CB2C-A39A-3E10CE4CA18D">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_FULLNAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_ACTIVE_FLAGE" id="05391188-F6B6-0DD5-F74D-9D42410163DC">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_ACTIVE_FLAGE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F14E90D2-2BE9-0CE8-8E1F-7DFBB4402FA8" name="USER_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9D81447-CA07-0D30-6906-E97D6F45B3B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11A0CBCA-E495-C3C7-1FB6-4CFE5E81DB47" name="UI_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>UI_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7A0859-BF4B-3A5F-25C6-75C1F1B01AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A621579A-F3CF-E492-B52F-540CA598C939" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="UI_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>UI_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7A0859-BF4B-3A5F-25C6-75C1F1B01AED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED2F415-7D9B-ECBD-2719-E32FEE294421" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="USER_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9D81447-CA07-0D30-6906-E97D6F45B3B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

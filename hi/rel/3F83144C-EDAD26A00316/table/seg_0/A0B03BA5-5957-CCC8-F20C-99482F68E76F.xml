@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0B03BA5-5957-CCC8-F20C-99482F68E76F" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="ITEM_INFO_MST">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>ITEM_INFO_MST</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:18 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IIM_ID" id="EA3F00CB-7E95-3214-3AD2-ED6C2E162C23">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>ITEM_INFO_MST</sourceObjSchema>
+<sourceObjName>IIM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIM_CODE" id="62AE453D-575D-29C7-1274-AA75700D887A">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>ITEM_INFO_MST</sourceObjSchema>
+<sourceObjName>IIM_CODE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIM_NAME" id="363D8FB6-4BF1-8D64-9C75-07B98BCFE188">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>ITEM_INFO_MST</sourceObjSchema>
+<sourceObjName>IIM_NAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IIM_VAT_PCT" id="ECCE4C76-E6B8-357A-B735-5D804A89C509">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>ITEM_INFO_MST</sourceObjSchema>
+<sourceObjName>IIM_VAT_PCT</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A71DC6ED-452D-F49C-999E-D24852DE9A00" name="IIM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>IIM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3F00CB-7E95-3214-3AD2-ED6C2E162C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A743C98-8CB0-E76F-D155-1BD643EF563E" name="IIM_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>IIM_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62AE453D-575D-29C7-1274-AA75700D887A"/>
+<colUsage columnID="363D8FB6-4BF1-8D64-9C75-07B98BCFE188"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A81A6C99-0F33-6647-DA0A-CA3654F97D4E" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="IIM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>IIM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3F00CB-7E95-3214-3AD2-ED6C2E162C23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E66CB8F-C910-95D6-D7C1-012FB756A92B" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="IIM_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>IIM_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62AE453D-575D-29C7-1274-AA75700D887A"/>
+<colUsage columnID="363D8FB6-4BF1-8D64-9C75-07B98BCFE188"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

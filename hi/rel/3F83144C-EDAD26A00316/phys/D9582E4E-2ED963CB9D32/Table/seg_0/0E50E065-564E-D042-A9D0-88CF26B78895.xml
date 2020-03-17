@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="RECEIVE_MST" directorySegmentName="seg_0" id="0E50E065-564E-D042-A9D0-88CF26B78895">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F766ECAD-BFC7-4CD4-645D-01484E7761DD</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RM_ID" id="0120E196-EE65-92A5-23A5-511DEB5D17DE">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_RECEIVE_NUMBER" id="2FB6201C-37E3-9864-C9BC-1940286261C5">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_CHALLAN_DATE" id="622F8366-7A32-81EC-B044-A2402AC044B7">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_SIM_ID" id="9D936F5D-8090-DCA4-E355-ECEB958414EB">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_UI_ID" id="C18A39CC-C3F1-2577-2B4C-E90FB6D750D3">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_CHALLANNO" id="D7640C53-5576-D512-94F6-CCFE643522BC">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RM_DATE" id="FBCC6A2D-9F3B-50CD-CC3C-AC77A3964A0E">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RM_PK" id="3A72079E-1F6F-8D2C-4ADA-4D5EE7F20584">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RM2" id="9F32CDC8-2D56-9AD1-FB3B-116E14462AFC">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RM" id="E4B235A4-6F1C-87B7-D7D8-25CA06F9AFA9">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RM_PK" id="FCEFD1D1-3B2E-BCF0-4968-B5D68934520C">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>3A72079E-1F6F-8D2C-4ADA-4D5EE7F20584</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

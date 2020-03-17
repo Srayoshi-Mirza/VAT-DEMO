@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="RECEIVE_DTL" directorySegmentName="seg_0" id="CF29B829-F944-74C6-0060-AF54E5B2019D">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:18 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F766ECAD-BFC7-4CD4-645D-01484E7761DD</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RD_ID" id="02963D79-5005-B677-B391-860A89B93CB8">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_PUR_AMT" id="03659C54-22CE-BE40-D123-3F3AC9A0C554">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_RM_ID" id="1435FCB7-A8A6-B092-F90E-3D338FDB270C">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_VAT_AMT" id="1AD55E94-750A-68EF-1101-950A66F960D4">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_IIM_ID" id="4B0A05C2-A5D9-B4DE-E21A-9C53B8B5B64A">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_QTY" id="B5F829CC-A41C-C638-7989-AB96646329E1">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_VAT_PCT" id="CAB8B1E7-45AA-D30E-FB47-2E68A6F0B395">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RD_RATE" id="D494A321-43F8-725D-3C74-272E16E3EF1B">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RD_PK" id="311DDD34-294F-078B-D514-4CF7892A226A">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RD1" id="6B46648B-E473-AEB7-3EC5-145D496345D7">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RD" id="F4727021-E711-DDA2-BC11-D13BD5E10E8D">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RD_PK" id="05A6E83F-E003-B3A1-DE9A-E70419672830">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>311DDD34-294F-078B-D514-4CF7892A226A</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

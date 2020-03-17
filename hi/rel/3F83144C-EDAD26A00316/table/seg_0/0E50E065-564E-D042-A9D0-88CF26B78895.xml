@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E50E065-564E-D042-A9D0-88CF26B78895" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="RECEIVE_MST">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RECEIVE_MST</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RM_ID" id="0120E196-EE65-92A5-23A5-511DEB5D17DE">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_DATE" id="FBCC6A2D-9F3B-50CD-CC3C-AC77A3964A0E">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_DATE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_SIM_ID" id="9D936F5D-8090-DCA4-E355-ECEB958414EB">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_SIM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A06A899A-4C2D-506D-6382-0B6148947A77" referredColumn="B3AF9681-854C-5093-ADBE-4F38E96ABC26"/>
+</associations>
+</Column>
+<Column name="RM_CHALLANNO" id="D7640C53-5576-D512-94F6-CCFE643522BC">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_CHALLANNO</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_CHALLAN_DATE" id="622F8366-7A32-81EC-B044-A2402AC044B7">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_CHALLAN_DATE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RM_UI_ID" id="C18A39CC-C3F1-2577-2B4C-E90FB6D750D3">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_UI_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD509546-51E2-B634-051D-25CF8BF73CB2" referredColumn="B9D81447-CA07-0D30-6906-E97D6F45B3B5"/>
+</associations>
+</Column>
+<Column name="RM_RECEIVE_NUMBER" id="2FB6201C-37E3-9864-C9BC-1940286261C5">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>RECEIVE_MST</sourceObjSchema>
+<sourceObjName>RM_RECEIVE_NUMBER</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCEFD1D1-3B2E-BCF0-4968-B5D68934520C" name="RM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0120E196-EE65-92A5-23A5-511DEB5D17DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A72079E-1F6F-8D2C-4ADA-4D5EE7F20584" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="RM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>RM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0120E196-EE65-92A5-23A5-511DEB5D17DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4B235A4-6F1C-87B7-D7D8-25CA06F9AFA9" name="FK_RM">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D936F5D-8090-DCA4-E355-ECEB958414EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F32CDC8-2D56-9AD1-FB3B-116E14462AFC" name="FK_RM2">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C18A39CC-C3F1-2577-2B4C-E90FB6D750D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

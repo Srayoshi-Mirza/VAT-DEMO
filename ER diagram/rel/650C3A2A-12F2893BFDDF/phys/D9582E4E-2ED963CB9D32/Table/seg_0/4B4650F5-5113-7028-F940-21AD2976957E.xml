@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="USER_INFO" directorySegmentName="seg_0" id="4B4650F5-5113-7028-F940-21AD2976957E">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6151952D-4DA1-79C3-0F88-A07569FD9E25</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UI_PASSWORD" id="1304BB22-B9C2-59E9-1136-6963330D63CC">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_ID" id="4EF5356E-FB3F-BCD4-B624-65CCF0FC6E7B">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_ACTIVE_FLAGE" id="C2B0C63A-DF89-7021-F22D-3A2BA0C0452B">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_FULLNAME" id="DBC3D7B4-5289-B928-9711-5DE45C98A7C1">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UI_USER_NAME" id="DF904798-7B11-464B-645E-EB68EDA657D3">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UI_UK" id="DF9DDA0A-137B-E62B-D60F-1E255211B60F">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="USER_PK" id="F9B45C2B-7817-CDB4-C9FD-976D9586E9FB">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USER_PK" id="DEF4D2C9-3C40-AA30-17A1-A82501FD8FDD">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<existingIndex>F9B45C2B-7817-CDB4-C9FD-976D9586E9FB</existingIndex>
+<indexSegment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UI_UK" id="273F22B0-B46E-9ECC-D09A-837248EBDBA2">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<existingIndex>DF9DDA0A-137B-E62B-D60F-1E255211B60F</existingIndex>
+<indexSegment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev10g>

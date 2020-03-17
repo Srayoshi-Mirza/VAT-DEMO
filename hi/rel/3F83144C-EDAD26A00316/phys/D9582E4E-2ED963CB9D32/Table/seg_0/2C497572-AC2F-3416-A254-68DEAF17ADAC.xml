@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="SUPPLIER_INFO_MST" directorySegmentName="seg_0" id="2C497572-AC2F-3416-A254-68DEAF17ADAC">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F766ECAD-BFC7-4CD4-645D-01484E7761DD</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SIM_NAME" id="13D2DB75-D6DF-1E39-453F-2D0DBD7BF9C2">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_CODE" id="1AB31AC3-56A6-9325-2CC6-9120E7A1A4E4">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_PH" id="35838167-3588-E8C3-A731-824910CDF1DF">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_ID" id="B3AF9681-854C-5093-ADBE-4F38E96ABC26">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_ADRESS" id="BB90CB7F-89C4-2169-A8F8-0628D50BC080">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SIM_UK" id="4A3975DC-CC45-DDBF-CD6C-5900C992FF76">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SIM_PK" id="613C553F-0CC7-C6D9-6B37-2297FC3E3235">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<schemaObject>C80B81C2-DF97-3814-4208-B4A5EF4CFCD3</schemaObject>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SIM_PK" id="D344779A-6F09-B033-9A41-E71912214A0F">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>613C553F-0CC7-C6D9-6B37-2297FC3E3235</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SIM_UK" id="F8C921A2-C18D-49A7-E190-01BEB40097C5">
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<segment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</segment>
+<tableSpace>8CE805D7-9440-7B83-014D-46E5F38F9D59</tableSpace>
+<existingIndex>4A3975DC-CC45-DDBF-CD6C-5900C992FF76</existingIndex>
+<indexSegment>19DF791A-11F3-53E1-8E5B-E26639CDB7F3</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev10g>

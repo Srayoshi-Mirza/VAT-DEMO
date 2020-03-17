@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="SUPPLIER_INFO_MST" directorySegmentName="seg_0" id="BD5D395C-2DFB-8B3F-C00D-518E2C3EB116">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6151952D-4DA1-79C3-0F88-A07569FD9E25</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SIM_NAME" id="3B108E52-09C7-C1EB-F831-47F1E53A56D7">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_ID" id="815E1D30-6EF2-8607-B648-6BECC3AF1B32">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_CODE" id="8790E9A3-0893-9638-DD16-91DDE2373ECB">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_PH" id="EB3123CD-CD97-DB4D-389B-AD53CE140E79">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SIM_ADRESS" id="EE68DD7F-52FA-B140-9D73-14DDA8457CD3">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SIM_PK" id="85823500-1A56-F1A1-3D57-E25BEFC38B87">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SIM_UK" id="919079BE-A9E0-C54F-C657-EEB8B44F744C">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SIM_PK" id="39C625C5-21E9-B127-155A-614BEF56F2AB">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<existingIndex>85823500-1A56-F1A1-3D57-E25BEFC38B87</existingIndex>
+<indexSegment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SIM_UK" id="4F541F6E-AACE-6D72-D4A9-53EC9AC9C151">
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<segment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</segment>
+<tableSpace>803D7708-69A0-FE21-9B39-6C92E360F4C2</tableSpace>
+<existingIndex>919079BE-A9E0-C54F-C657-EEB8B44F744C</existingIndex>
+<indexSegment>F44E4989-87E6-B4D4-1FBB-1664D91E47DC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev10g>

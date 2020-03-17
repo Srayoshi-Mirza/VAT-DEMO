@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C497572-AC2F-3416-A254-68DEAF17ADAC" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="SUPPLIER_INFO_MST">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>SUPPLIER_INFO_MST</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SIM_ID" id="B3AF9681-854C-5093-ADBE-4F38E96ABC26">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>SUPPLIER_INFO_MST</sourceObjSchema>
+<sourceObjName>SIM_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_CODE" id="1AB31AC3-56A6-9325-2CC6-9120E7A1A4E4">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>SUPPLIER_INFO_MST</sourceObjSchema>
+<sourceObjName>SIM_CODE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_NAME" id="13D2DB75-D6DF-1E39-453F-2D0DBD7BF9C2">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>SUPPLIER_INFO_MST</sourceObjSchema>
+<sourceObjName>SIM_NAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_ADRESS" id="BB90CB7F-89C4-2169-A8F8-0628D50BC080">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>SUPPLIER_INFO_MST</sourceObjSchema>
+<sourceObjName>SIM_ADRESS</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_PH" id="35838167-3588-E8C3-A731-824910CDF1DF">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>SUPPLIER_INFO_MST</sourceObjSchema>
+<sourceObjName>SIM_PH</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D344779A-6F09-B033-9A41-E71912214A0F" name="SIM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>SIM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AF9681-854C-5093-ADBE-4F38E96ABC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8C921A2-C18D-49A7-E190-01BEB40097C5" name="SIM_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>SIM_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AB31AC3-56A6-9325-2CC6-9120E7A1A4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="613C553F-0CC7-C6D9-6B37-2297FC3E3235" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="SIM_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>SIM_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AF9681-854C-5093-ADBE-4F38E96ABC26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A3975DC-CC45-DDBF-CD6C-5900C992FF76" schemaObject="C80B81C2-DF97-3814-4208-B4A5EF4CFCD3" name="SIM_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>SIM_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2020-03-11 11:51:19 UTC</createdTime>
+<ownerDesignName>hi</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AB31AC3-56A6-9325-2CC6-9120E7A1A4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

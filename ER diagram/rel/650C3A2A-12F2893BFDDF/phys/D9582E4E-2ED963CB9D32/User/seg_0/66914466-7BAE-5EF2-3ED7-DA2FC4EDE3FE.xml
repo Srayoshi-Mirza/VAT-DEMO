@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MAB" directorySegmentName="seg_0" id="66914466-7BAE-5EF2-3ED7-DA2FC4EDE3FE">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjName>MAB</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<schemaObject>B961F939-55C1-6FF9-13AB-0CA121FFEC14</schemaObject>
+<privileges>CREATE JOB, SELECT ANY DICTIONARY, CREATE ROLLBACK SEGMENT, ALTER USER, MANAGE FILE GROUP, CREATE ANY RULE, UNDER ANY TABLE, GLOBAL QUERY REWRITE, ALTER PROFILE, ALTER ANY INDEX, DROP ANY CLUSTER, DROP ANY RULE, DROP ANY TRIGGER, CREATE PUBLIC SYNONYM, CREATE ANY JOB, DROP ANY CONTEXT, QUERY REWRITE, DROP ANY SEQUENCE, UNLIMITED TABLESPACE, MANAGE ANY FILE GROUP</privileges>
+<profile>DEFAULT</profile>
+</UserOraclev10g>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B4650F5-5113-7028-F940-21AD2976957E" schemaObject="B961F939-55C1-6FF9-13AB-0CA121FFEC14" name="USER_INFO">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_INFO</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UI_ID" id="4EF5356E-FB3F-BCD4-B624-65CCF0FC6E7B">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_ID</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_USER_NAME" id="DF904798-7B11-464B-645E-EB68EDA657D3">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_USER_NAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_PASSWORD" id="1304BB22-B9C2-59E9-1136-6963330D63CC">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_PASSWORD</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_FULLNAME" id="DBC3D7B4-5289-B928-9711-5DE45C98A7C1">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_FULLNAME</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UI_ACTIVE_FLAGE" id="C2B0C63A-DF89-7021-F22D-3A2BA0C0452B">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>UI_ACTIVE_FLAGE</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEF4D2C9-3C40-AA30-17A1-A82501FD8FDD" name="USER_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EF5356E-FB3F-BCD4-B624-65CCF0FC6E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="273F22B0-B46E-9ECC-D09A-837248EBDBA2" name="UI_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>UI_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF904798-7B11-464B-645E-EB68EDA657D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF9DDA0A-137B-E62B-D60F-1E255211B60F" schemaObject="B961F939-55C1-6FF9-13AB-0CA121FFEC14" name="UI_UK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>UI_UK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF904798-7B11-464B-645E-EB68EDA657D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9B45C2B-7817-CDB4-C9FD-976D9586E9FB" schemaObject="B961F939-55C1-6FF9-13AB-0CA121FFEC14" name="USER_PK">
+<sourceConnName>MAB</sourceConnName>
+<sourceObjSchema>MAB</sourceObjSchema>
+<sourceObjName>USER_PK</sourceObjName>
+<createdBy>User</createdBy>
+<createdTime>2019-09-26 08:49:12 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EF5356E-FB3F-BCD4-B624-65CCF0FC6E7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
